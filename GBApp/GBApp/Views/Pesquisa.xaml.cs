@@ -51,17 +51,16 @@ namespace GBApp.Views
 
         public void OnSearchButtonClick(object sender, EventArgs e)
         {
-            //Chama RegisterNewUser Page
-            Navigation.PushModalAsync(new ResultList());
-    
-            //if (mapasw.IsToggled)
-            //{
-            //    Navigation.PushModalAsync(new Map());
-            //}
-            //else if (listsw.IsToggled)
-            //{
-            //    this.Navigation.PushModalAsync(new ResultList());
-            //}
+ 
+
+            if (mapasw.IsToggled)
+            {
+                Navigation.PushModalAsync(new Map());
+            }
+            else if (listsw.IsToggled)
+            {
+                this.Navigation.PushModalAsync(new ResultList());
+            }
 
         }
     }

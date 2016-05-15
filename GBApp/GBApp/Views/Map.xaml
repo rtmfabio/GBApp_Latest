@@ -6,11 +6,12 @@
              x:Class="GBApp.Views.Map">
   <Label Text="Map" VerticalOptions="Center" HorizontalOptions="Center" />
 
-  <StackLayout VerticalOptions="StartAndExpand" Padding="30">
-    <maps:Map WidthRequest="320" HeightRequest="200"
+  <StackLayout VerticalOptions="StartAndExpand" Padding="10">
+    <maps:Map WidthRequest="320" HeightRequest="500"
         x:Name="MyMap"
         IsShowingUser="true"
-        MapType="Hybrid"
+        MapType="Street"
+              
         />
   </StackLayout>
 </ContentPage>

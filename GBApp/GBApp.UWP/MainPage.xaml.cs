@@ -20,7 +20,7 @@ namespace GBApp.UWP
         public MainPage()
         {
             this.InitializeComponent();
-            //Xamarin.FormsMaps.Init("LOmPY44FSv9k8LqwVMgn~2ALxOiC9ORe7GDe3oglWGQ~AqRrwn6eJqORDNnhS7JS-JvbQKpv_ZMOcmm1_tZeygAzXevvb2nPI_9JT257DLIv");
+            Xamarin.FormsMaps.Init("LOmPY44FSv9k8LqwVMgn~2ALxOiC9ORe7GDe3oglWGQ~AqRrwn6eJqORDNnhS7JS-JvbQKpv_ZMOcmm1_tZeygAzXevvb2nPI_9JT257DLIv");
             LoadApplication(new GBApp.App());
         }
     }

@@ -40,12 +40,10 @@
     <Compile Include="Components\BindablePicker.cs" />
     <Compile Include="Helpers\EnumerableExtensions.cs" />
     <Compile Include="Models\Company.cs" />
-    <Compile Include="Models\PME.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
     <Compile Include="ViewModels\PesquisaViewModel.cs" />
-    <Compile Include="ViewModels\SearchResultItemViewModel.cs" />
     <Compile Include="Views\GbAppInfoPage.xaml.cs">
       <DependentUpon>GbAppInfoPage.xaml</DependentUpon>
     </Compile>
