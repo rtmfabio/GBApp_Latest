@@ -11,7 +11,7 @@
         x:Name="MyMap"
         IsShowingUser="true"
         MapType="Street"
-              
+             
         />
   </StackLayout>
 </ContentPage>
